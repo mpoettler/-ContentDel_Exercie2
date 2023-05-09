@@ -91,13 +91,4 @@ public class CalculatorImpl implements Calculator {
 		return (n * (n+1)) / 2;
 	}
 
-
-	// TODO for testing Continuous Delivery Pipelines
-	// - create a new branch e.g. new-memory-function
-	// - create a function which will add given number to a internal memory addToMemory(double number)
-	// - create another function which will sum all previous added numbers by addToMemory(...), e.g. getCurrentMemory()
-	// - commit and push your code
-	// - create a pull request to merge into main branch
-	// - workflow on pull_request has to be run and check your code
-
 }
